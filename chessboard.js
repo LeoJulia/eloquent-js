@@ -11,11 +11,19 @@
     # # # #
     Когда справитесь, сделайте размер доски переменным, чтобы можно было создавать доски любого размера.
 */
-
-var space = " ";
-var grate = "#";
-for( var size = 1; size <= 8; size++)
-{
-   if (size % 2 == 0)  console.log (space + grate);
-   else console.log (grate + space);
+var string;
+var size = 11;
+for (var i = 0; i < size; i++) {
+    string = "";
+    if (i % 2 != 0) {
+        for (var j = 0; j < size/2; j++) {
+           string += "# "
+        }
+    }
+    else {
+         for (var k = 0; k <  Math.floor(size/2); k++) {
+           string += " #"
+        }
+    }
+console.log(string);
 }
