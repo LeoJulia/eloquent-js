@@ -9,3 +9,9 @@
     console.log(min(0, -10));
     // → -10
 */
+
+ function min (i , b) {
+    var result =  Math.min(i,b);
+    return result ;
+}
+console.log(min(15, 3));
