@@ -11,7 +11,9 @@
 */
 
  function min (x, y) {
-    var result = ( x<y? x: y);
+    var result = (x<y? x: y);
     return result;
 }
 console.log(min(1, 3));
+console.log(min(0, 10));
+console.log(min(0, -10));
