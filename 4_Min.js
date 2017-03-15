@@ -10,8 +10,8 @@
     // → -10
 */
 
- function min (i , b) {
-    var result =  Math.min(i,b);
-    return result ;
+ function min (x, y) {
+    var result = ( x<y? x: y);
+    return result;
 }
-console.log(min(15, 3));
+console.log(min(1, 3));
